@@ -3,9 +3,9 @@
 }
 
 .message {
-	color: blue;
+	color: green;
 }
 
 .message:hover {
-	background-color: yellow;
+	background-color: red;
 }
