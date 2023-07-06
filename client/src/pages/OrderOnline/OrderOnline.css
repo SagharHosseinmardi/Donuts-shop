@@ -1,0 +1,60 @@
+.pickup {
+    border: 2px solid #808080;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    margin: 0 7px;
+}
+
+.donutName {
+    grid-area: name;
+    /* margin-bottom: 0; */
+}
+
+.donutPic {
+    grid-area: pic;
+    padding-top: 10px;
+}
+
+.donut-description {
+    grid-area: detail;
+}
+
+.donut-price {
+    grid-area: price;
+}
+
+.donuts {
+    border-bottom: 2px solid #d3d3d3;
+    display: grid;
+    grid-template-areas: "name pic"
+    "detail pic"
+    "price price";
+}
+
+.donuts h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.donuts:hover {
+    background-color: #faebd7 ;
+    border-bottom: #000 2px solid;
+}
+
+.donuts:nth-child(1) {
+    border-top: 2px solid #d3d3d3;
+}
+
+.donuts:nth-child(1):hover {
+    border-top: 2px solid #000;
+}
+
+.donuts:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.donuts:nth-last-child(1):hover {
+    border-bottom: 2px solid #000;
+}
+
