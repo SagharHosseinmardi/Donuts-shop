@@ -1,7 +1,14 @@
+import caramel from "../images/caramel.jpeg";
+import chocolate from "../images/chocolate.jpeg";
+import cookies from "../images/cookies.jpeg";
+import lemon from "../images/lemon.jpeg";
+import rose from "../images/rose.jpeg";
+import strawberry from "../images/strawberry.jpeg";
+
 const donuts = [
 	{
 		id: 1,
-		imgSrc: "",
+		imgSrc: chocolate,
 		alt: "chocolate donut",
 		name: "Chocolate Crunch",
 		description: "I'm a Chocolate Crunch donut",
@@ -9,7 +16,7 @@ const donuts = [
 	},
 	{
 		id: 2,
-		imgSrc: "",
+		imgSrc: strawberry,
 		alt: "strawberry donut",
 		name: "Strawberry Sprinkles",
 		description: "I'm a Strawberry Sprinkles donut",
@@ -17,7 +24,7 @@ const donuts = [
 	},
 	{
 		id: 3,
-		imgSrc: "",
+		imgSrc: caramel,
 		alt: "caramel donut",
 		name: "Caramel Glaze",
 		description: "I'm a Caramel Glaze donut",
@@ -25,7 +32,7 @@ const donuts = [
 	},
 	{
 		id: 4,
-		imgSrc: "",
+		imgSrc: rose,
 		alt: "rose donut",
 		name: "Rose Vanilla",
 		description: "I'm a Rose Vanilla donut",
@@ -33,7 +40,7 @@ const donuts = [
 	},
 	{
 		id: 5,
-		imgSrc: "",
+		imgSrc: cookies,
 		alt: "cookies donut",
 		name: "Cookies & Cream",
 		description: "I'm a Cookies & Cream donut",
@@ -41,7 +48,7 @@ const donuts = [
 	},
 	{
 		id: 6,
-		imgSrc: "",
+		imgSrc: lemon,
 		alt: "lemon donut",
 		name: "Lemon Frosting",
 		description: "I'm a Lemon Frosting donut",
