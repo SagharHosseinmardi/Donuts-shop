@@ -13,7 +13,8 @@
 
 .donutPic {
     grid-area: pic;
-    padding-top: 10px;
+    padding-top: 20px;
+    width: 91px;
 }
 
 .donut-description {
@@ -30,11 +31,13 @@
     grid-template-areas: "name pic"
     "detail pic"
     "price price";
+    grid-template-columns: 65% 35%;
+    padding-left: 15px;
 }
 
 .donuts h3 {
-    margin-top: 0px;
-    padding-top: 10px;
+    margin: 0px;
+    padding-top: 20px;
 }
 
 .donuts:hover {
