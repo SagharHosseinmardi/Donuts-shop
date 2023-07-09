@@ -1,0 +1,150 @@
+/* body {
+    min-width: 375px;
+} */
+
+h1 {
+    text-align: center;
+    width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+}
+
+.pickup {
+    border: 2px solid #808080;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    margin: 15px 7px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.shopping-bag {
+    display: none;
+    visibility: hidden;
+    width: 22px;
+    height: 22px;
+}
+
+.menu-line {
+    display: none;
+}
+
+.donutName {
+    grid-area: name;
+    /* margin-bottom: 0; */
+}
+
+.donutPic {
+    grid-area: pic;
+    padding-top: 20px;
+    width: 91px;
+}
+
+.donut-description {
+    grid-area: detail;
+}
+
+.donut-price {
+    grid-area: price;
+}
+
+.donuts {
+    border-bottom: 2px solid #d3d3d3;
+    display: grid;
+    grid-template-areas: "name pic"
+    "detail pic"
+    "price price";
+    grid-template-columns: 65% 35%;
+    padding-left: 15px;
+}
+
+.donuts h3 {
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.donuts:hover {
+    background-color: #faebd7 ;
+    border-bottom: #000 2px solid;
+}
+
+.donuts:nth-child(1) {
+    border-top: 2px solid #d3d3d3;
+}
+
+.donuts:nth-child(1):hover {
+    border-top: 2px solid #000;
+}
+
+.donuts:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.donuts:nth-last-child(1):hover {
+    border-bottom: 2px solid #000;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .pickup {
+        width: 40%;
+    }
+
+    .menu-line {
+        display: grid;
+        grid-template-columns: 15em 1fr 3em;
+        align-items: baseline;
+        border-bottom: 1px solid #808080;
+    }
+
+    .shopping-bag {
+        display: flex;
+        visibility: visible;
+    }
+
+    .donut-area {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 96%;
+        row-gap: 1em;
+        column-gap: 1em;
+        margin: 25px auto;
+    }
+
+     .donuts {
+        border: 1px solid #808080;
+        grid-template-areas: "name pic"
+        "detail pic"
+        "price pic";
+    }
+
+    .donuts:hover {
+        border: 2px solid #000000;
+    }
+
+    .donutPic {
+        width: 7.6em;
+        height: 8.2em;
+        padding-top: 0;
+    }
+
+    .donut-price {
+        margin-bottom: 0;
+        padding-bottom: 5px;
+    }
+
+    .donuts:nth-last-child(1) {
+        border-bottom: 1px solid #808080;
+    }
+}
+
+   
+
