@@ -19,8 +19,10 @@ function OrderOnline() {
 				<aside className="menu-line">
 					<h2>Menu</h2>
 					<h2>Our Donuts</h2>
-                    <img src={bag} alt="shopping bag" className="shopping-bag" />
+					<img src={bag} alt="shopping bag" className="shopping-bag" />
 				</aside>
+				<h2>Menu</h2>
+				<h2>Our Donuts</h2>
 
 				<section className="donut-area">
 					{donuts.map((item) => {
