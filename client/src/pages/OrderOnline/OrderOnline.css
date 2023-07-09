@@ -98,6 +98,7 @@ h2 {
         display: grid;
         grid-template-columns: 15em 1fr 3em;
         align-items: baseline;
+        border-bottom: 1px solid #808080;
     }
 
     .shopping-bag {
@@ -108,9 +109,10 @@ h2 {
     .donut-area {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* width: 100%; */
-        row-gap: 2em;
-        column-gap: 2em;
+        width: 96%;
+        row-gap: 1em;
+        column-gap: 1em;
+        margin: 25px auto;
     }
 
      .donuts {
@@ -125,7 +127,7 @@ h2 {
     }
 
     .donutPic {
-        width: 7.9em;
+        width: 7.6em;
         height: 8.2em;
         padding-top: 0;
     }
