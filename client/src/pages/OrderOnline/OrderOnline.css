@@ -29,6 +29,10 @@ h2 {
     height: 22px;
 }
 
+.menu-line {
+    display: none;
+}
+
 .donutName {
     grid-area: name;
     /* margin-bottom: 0; */
